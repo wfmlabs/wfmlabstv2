@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Display</title>
+  <style>
+    body {
+      background-color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    #container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .image {
+      width: calc(100% / 3 - 20px);
+      height: auto;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <img class="image" src="https://media.raven.news/images/wx/bn9/WSI/Forecasts/lg_aatrack.jpg" alt="Image 1">
+    <img class="image" src="https://media.raven.news/images/wx/bn9/WSI/Forecasts/lg_aatrack2.jpg" alt="Image 2">
+    <img class="image" src="https://media.raven.news/images/wx/bn9/WSI/Forecasts/lg_aatrack3.jpg" alt="Image 3">
+    <img class="image" src="https://media.raven.news/images/wx/bn9/WSI/Forecasts/lg_spaghetti.jpg" alt="Image 4">
+    <img class="image" src="https://media.raven.news/images/wx/bn9/WSI/Forecasts/lg_spaghetti2.jpg" alt="Image 5">
+    <img class="image" src="https://media.raven.news/images/wx/bn9/WSI/Forecasts/lg_spaghetti3.jpg" alt="Image 6">
+    <img class="image" src="https://media.raven.news/images/wx/bn9/60min/caribbean_wind.jpg" alt="Image 7">
+    <img class="image" src="https://media.raven.news/images/wx/bn9/60min/fl_sea_sfc_temps.jpg" alt="Image 8">
+    <img class="image" src="https://media.raven.news/images/wx/bn9/60min/wave_heights_atl.jpg" alt="Image 9">
+  </div>
+</body>
+</html>
+

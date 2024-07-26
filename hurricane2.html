@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NOAA Images</title>
+  <style>
+    body {
+      background-color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    #container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #left-top,
+    #right-top {
+      width: 45%;
+      max-width: 900px;
+      height: auto;
+      margin: 10px;
+    }
+
+    #left-bottom,
+    #right-bottom {
+      width: 20%;
+      max-width: 400px;
+      height: auto;
+      margin: 10px;
+    }
+
+    .image-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="left-top">
+      <div class="image-container">
+        <img src="https://www.nhc.noaa.gov/xgtwo/two_atl_2d0.png" alt="NOAA Hurricane Image">
+      </div>
+    </div>
+    <div id="right-top">
+      <div class="image-container">
+        <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/TAW/13/GOES16-TAW-13-900x540.gif" alt="GIF Image 1">
+      </div>
+    </div>
+    <div id="left-bottom">
+      <div class="image-container">
+        <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-CONUS-GEOCOLOR-625x375.gif" alt="GIF Image 2">
+      </div>
+    </div>
+    <div id="right-bottom">
+      <div class="image-container">
+        <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-EUS-GEOCOLOR-1000x1000.gif" alt="GIF Image 3">
+      </div>
+    </div>
+    <div id="left-bottom">
+      <div class="image-container">
+        <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-SE-GEOCOLOR-600x600.gif" alt="GIF Image 4">
+      </div>
+    </div>
+    <div id="right-bottom">
+      <div class="image-container">
+        <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-GM-GEOCOLOR-1000x1000.gif" alt="GIF Image 5">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
